@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="339.0" prefWidth="610.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.narutojuego.PantallaDeInicio">
+   <children>
+      <ImageView fitHeight="368.0" fitWidth="608.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../resources/Pantallainicio.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Salir" fitHeight="22.0" fitWidth="132.0" layoutX="491.0" layoutY="14.0" onMouseClicked="#Salir" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../resources/Salir.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="nuevaPartida" fitHeight="22.0" fitWidth="103.0" layoutX="403.0" layoutY="14.0" onMouseClicked="#Jugar" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../resources/NuevaPartida.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

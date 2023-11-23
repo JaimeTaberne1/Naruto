@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="pane3" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="330.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.narutojuego.Juego">
+   <children>
+      <ImageView fx:id="imagenfondo" fitHeight="356.0" fitWidth="624.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="muneco1" fitHeight="137.0" fitWidth="820.0" layoutX="7.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="muneco2" fitHeight="137.0" fitWidth="820.0" layoutX="-220.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="ataque" fitHeight="46.0" fitWidth="119.0" layoutX="21.0" layoutY="14.0" onMouseClicked="#atacar" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../../resources/ataque.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="superaw" fitHeight="46.0" fitWidth="119.0" layoutX="144.0" layoutY="14.0" onMouseClicked="#superar" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../../resources/super.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="superaw2" fitHeight="46.0" fitWidth="119.0" layoutX="467.0" layoutY="14.0" onMouseClicked="#superar2" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../../resources/super.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ataque2" fitHeight="46.0" fitWidth="119.0" layoutX="344.0" layoutY="14.0" onMouseClicked="#atacar2" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../../resources/ataque.png" />
+         </image>
+      </ImageView>
+      <ProgressBar fx:id="vida" layoutX="14.0" layoutY="68.0" prefWidth="200.0" progress="0.0" />
+      <ProgressBar fx:id="vida2" layoutX="386.0" layoutY="68.0" prefWidth="200.0" progress="0.0" />
+      <ProgressBar fx:id="barrasuper" layoutX="14.0" layoutY="86.0" prefHeight="18.0" prefWidth="160.0" progress="0.0" />
+      <ProgressBar fx:id="barrasuper2" layoutX="426.0" layoutY="86.0" prefHeight="18.0" prefWidth="160.0" progress="0.0" />
+   </children>
+</AnchorPane>
